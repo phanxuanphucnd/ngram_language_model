@@ -1,6 +1,7 @@
 import nltk
 from constant import *
 
+
 def add_sentence_tokens(sentences, n):
     """Wrap each sentence in SOS and EOS tokens.
 

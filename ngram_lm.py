@@ -23,7 +23,6 @@ class LanguageModel(object):
         laplace (int): lambda multiplier to use for laplace smoothing (default 1 for add-1 smoothing).
 
     """
-
     def __init__(self, train_data, n, laplace=1):
         self.n = n
         self.laplace = laplace

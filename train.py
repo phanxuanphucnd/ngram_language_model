@@ -4,6 +4,7 @@ from pathlib import Path
 from utils import load_data
 from ngram_lm import LanguageModel
 
+
 data_path = Path('./data/rewrite/')
 train, test = load_data(data_path)
 

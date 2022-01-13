@@ -3,6 +3,7 @@ import re
 from tqdm import tqdm
 from unicodedata import normalize
 
+
 with open('./data/rewrite1.txt', 'r+', encoding='utf-8') as f:
     lines = f.readlines()
 

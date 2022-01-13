@@ -1,6 +1,7 @@
 import pickle
 import timeit
 
+
 with open('./ngram.pkl', 'rb') as f:
     ngram_lm = pickle.load(f)
 
